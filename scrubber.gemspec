@@ -6,12 +6,12 @@ require 'scrubber/version'
 Gem::Specification.new do |spec|
   spec.name          = "scrubber"
   spec.version       = Scrubber::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Carl Thuringer"]
   spec.email         = ["carlthuringer@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Scrubber makes it possible to edit reproduceable RSpec test runs}
+  spec.description   = %q{By using RSpec's API Scrubber outputs a file containing a reproducable run configuration}
+  spec.homepage      = ""
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -32,4 +32,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.5.0"
+  spec.add_dependency "rspec-core", "~>3.5.0"
 end
