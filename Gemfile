@@ -1,6 +1,4 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem "rspec-core"
-gem "rspec"
-#gem 'pry'
-#gem 'pry-debugger'
+# Specify your gem's dependencies in scrubber.gemspec
+gemspec
